@@ -1,0 +1,91 @@
+.products{
+
+    margin:20px auto;
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:  orange;
+    border-radius: 5px;
+}
+
+.card{
+
+    width:300px;
+    height:500px;
+    border:1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: white;
+}
+
+.product-image{
+
+    width:70%;
+    max-width: 300px;
+    min-height: 200px;
+    display: block;
+    object-fit: cover;
+
+}
+.product-name{
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.product-price{
+    margin:10px 0px;
+    padding-bottom:20px;
+    font-size:18px;
+    line-height:30px;
+}
+
+.product-add-button{
+    font-weight:300;
+    font-size:12px;
+    border-radius: 5px;
+    border:none;
+    outline:none ;
+    background-color: black;
+    color: white;
+    width: 70%;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin:2px auto;
+}
+
+.product-add-button:hover{
+    background-color: red;
+}
+
+.product-add-button:active{
+    transform: translateY(2px);
+}
+
+.product-wish-button{
+    font-weight:300;
+    font-size:12px;
+    border-radius: 5px;
+    border:none;
+    outline:none ;
+    background-color:dimgray;
+    color: white;
+    width: 70%;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin:2px auto;
+}
+
+.product-wish-button:hover{
+    background-color: green;
+}
+
+.product-wish-button:active{
+    transform: translateY(2px);
+}
